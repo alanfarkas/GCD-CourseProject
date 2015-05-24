@@ -11,9 +11,9 @@
 #
 # Step 1: Merge the training and test sets into one data set
 #
-#testData <- read.table("X_test.txt")
+testData <- read.table("X_test.txt")
 #trainData <- read.table("X_train.txt")
-#allData <- rbind(testData, read.table("X_train.txt"))
+allData <- rbind(testData, read.table("X_train.txt"))
 
 #
 # Step 2: Pull in column & row headers, and other descriptors
