@@ -14,10 +14,17 @@ Activity - Description of measured activity (WALKING, WALKING_UPSTAIRS, WALKING_
 Measurements - 66 individual metrics, either STD Deviation or Means.
 
 Data Summary:
-The data set is summarized by Subject and Activity and holds the averages of all the captured metrics related to Std Deviation or Mean.
-68 variables across 10,299 rows.
+68 variables across 10,299 rows of observations; summarized by Subject and Activity and holds
+the averages of all the captured metrics related to Std Deviation or Mean.
 
-The run_analysis.R script performs the following steps to cleanse the date and produce the final data set:
+Data Output:
+"tidyData" (Data Frame) - final output data set
+"tidyData.txt" - Ascii txt file containing contents of "tidyData" data set
+
+
+Data Cleansing Script(s):
+There is only a single script used ( "run_analysis.R" ). It performs the following steps to cleanse the date 
+and produce the final data set:
 
 Step 1: Merge the training and test sets into one data set
 Step 2: Pull in column & row headers, and other descriptors
